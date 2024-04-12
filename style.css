@@ -1,0 +1,261 @@
+html,
+body {
+    margin: 0px;
+    background-color: #020231;
+    color: wheat;
+}
+
+p{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+
+}
+p a{
+    color: white;
+}
+
+p a:hover{
+    color: rgb(186, 186, 186);
+}
+
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 6cap;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 6cap;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+}
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 4cap;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 4cap;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h5 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 1px;
+
+
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+li a{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+li a:hover{
+    color: rgb(186, 186, 186);
+
+}
+
+.h1p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.hrefclass {
+    color: #009579;
+    text-decoration: none;
+    font-weight: bold;
+    display: contents;
+}
+
+.hrefclass:hover {
+    color: rgb(168, 0, 0);
+}
+
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: contents;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.navbar a:hover {
+    background-color: #006150;
+    color: black;
+}
+
+.navbar li {
+    float: left;
+}
+
+.banner {
+    background-color: #009579;
+}
+
+.banner__content {
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.banner__text {
+    flex-grow: 1;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.lgo {
+    margin: 10px;
+    width: 300px;
+    border-radius: 100px;
+    float: left;
+    padding-right: 10px;
+    object-fit: cover;
+}
+
+
+
+.sociallogo{
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.mainlgo {
+    width: 50px;
+    border-radius: 25px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.gallery {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    border-radius: 50px;
+    float: left;
+}
+
+.gallery img {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.imageContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlargedImg {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 10px;
+    float:left;
+    width: 550px;
+    border-radius: 50px;
+}
+.image-text {
+    color: white;
+    margin-left: 10px;
+}
+
+  div.gallery img {
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+    width: 200px;
+    border-radius: 50px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
