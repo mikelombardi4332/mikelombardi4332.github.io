@@ -1,1 +1,0 @@
-# Johnny-Helldiver-Static-site
